@@ -1,0 +1,112 @@
+
+body
+{
+    margin: 0%;
+    padding: 0%;
+    padding-top: 70px;
+}
+nav
+{
+    
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 12%;
+    background-color: #24C2B7;
+    position: fixed !important;
+    top: 0; 
+    left:0;
+    right: 0;
+}
+img
+{
+   width: 150px;
+   height: 70px ;
+   padding-left: 30px;
+  
+}
+
+.box_a
+{
+    
+    border-style:inset;
+    height: 200px;
+    width:800px;
+    padding:0px 0px 60px 0px;
+    align-items: center;
+    margin-top: 20px;
+}
+.box
+{
+    border-style:outset;
+    border-radius: 5cm;
+    height: 200px;
+    width:800px;
+    padding:0px 0px 60px 0px;
+    margin-top: 20px;
+}
+.space
+{
+    width:20px;
+    height:20px;
+}
+.button
+{
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.button.a{
+    background: #24C2B7;
+    border: 0;
+    color: white;
+    border-radius: 20px;
+    transition: 0.4s ease;
+    height: 1.2cm;
+    width: 5cm;
+    font-size: 20px;
+  }
+
+  .button.a:hover {
+    background:#080830;
+    cursor: pointer;
+  }
+
+  input[type=text], select {
+    width: 150px;
+    height: 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+  .btn 
+  {
+    background-color: #24C2B7; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .btn1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #24C2B7;
+  }
+  .btn1:hover {
+    background-color: #24C2B7;
+    color: white;
+  }
+ .captcha
+{
+  width: 50%;
+  background: yellow;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+} 
